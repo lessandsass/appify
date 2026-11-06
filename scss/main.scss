@@ -6,8 +6,11 @@
 // 2. Vendor
 @import "vendor/normalize";
 
-// 3. Base Styles
 
+// 3. Base Styles
+body {
+    background: $accent;
+}
 
 // 4. Layout
 

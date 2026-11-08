@@ -424,6 +424,12 @@ template {
   right: 0;
 }
 
+.logo {
+  width: 25%;
+  min-width: 10rem;
+  max-width: 15rem;
+}
+
 .hero {
   background: linear-gradient(to right, rgb(4, 140, 168), rgb(22, 219, 147));
   color: rgb(255, 255, 255);

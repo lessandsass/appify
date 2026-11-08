@@ -9,11 +9,11 @@
 
 
 // 3. Base Styles
-body {
-    background: $accent;
-}
+@import "base/base";
 
 // 4. Layout
+@import "layout/header";
+@import "layout/hero";
 
 
 // 5. Components

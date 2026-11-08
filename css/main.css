@@ -417,6 +417,10 @@ template {
   box-sizing: border-box;
 }
 
+.grid {
+  display: flex;
+}
+
 .main-header {
   position: absolute;
   top: 0;

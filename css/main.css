@@ -411,6 +411,12 @@ template {
   display: none;
 }
 
-body {
-  background: rgb(211, 24, 105);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.hero {
+  background: linear-gradient(to right, rgb(4, 140, 168), rgb(22, 219, 147));
 }

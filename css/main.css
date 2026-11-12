@@ -423,7 +423,7 @@ img {
 }
 
 .container {
-  width: 95%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -460,6 +460,10 @@ h1 {
 }
 .title-large strong {
   font-weight: 900;
+}
+
+.text-intro {
+  font-size: 1.2rem;
 }
 
 .grid {

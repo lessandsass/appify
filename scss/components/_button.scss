@@ -2,4 +2,17 @@
     display: inline-block;
     padding: .75em 2.5em;
     text-transform: uppercase;
+    
+}
+
+.btn--primary {
+    background: $accent;
+    color: $text-inverse;
+    border: 2px solid transparent;
+}
+
+.btn--secondary {
+    border: 2px solid $text-inverse;
+    background: transparent;
+    color: $text-inverse;
 }

@@ -454,6 +454,14 @@ h1 {
   line-height: 1.15;
 }
 
+.title-large {
+  font-size: 3rem;
+  font-weight: 300;
+}
+.title-large strong {
+  font-weight: 900;
+}
+
 .grid {
   display: flex;
 }

@@ -23,3 +23,11 @@ h1 {
     font-weight: $font-light;
     line-height: 1.15;
 }
+
+.title-large {
+    font-size: 3rem;
+    font-weight: $font-light;
+    strong {
+        font-weight: $font-black;
+    }
+}

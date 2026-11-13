@@ -417,6 +417,10 @@ template {
   box-sizing: border-box;
 }
 
+body {
+  color: rgb(4, 140, 168);
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -525,5 +529,5 @@ h1 {
 }
 .btn--secondary:hover, .btn--secondary:focus {
   background: rgb(255, 255, 255);
-  color: rgb(22, 219, 147);
+  color: rgb(4, 140, 168);
 }

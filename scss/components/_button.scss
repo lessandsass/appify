@@ -11,6 +11,13 @@
     background: $accent;
     color: $text-inverse;
     border: 2px solid $accent;
+
+    &:hover,
+    &:focus {
+        background: darken($accent, 15%);
+        border: 2px solid darken($accent, 15%);
+    }
+
 }
 
 .btn--secondary {

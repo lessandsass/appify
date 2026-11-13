@@ -513,6 +513,10 @@ h1 {
   color: rgb(255, 255, 255);
   border: 2px solid rgb(211, 24, 105);
 }
+.btn--primary:hover, .btn--primary:focus {
+  background: rgb(142.3127659574, 16.1872340426, 70.8191489362);
+  border: 2px solid rgb(142.3127659574, 16.1872340426, 70.8191489362);
+}
 
 .btn--secondary {
   border: 2px solid rgb(255, 255, 255);

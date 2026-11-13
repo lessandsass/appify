@@ -24,4 +24,11 @@
     border: 2px solid $text-inverse;
     background: transparent;
     color: $text-inverse;
+
+    &:hover,
+    &:focus {
+        background: $text-inverse;
+        color: $text-main;
+    }
+
 }

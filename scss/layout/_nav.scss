@@ -6,3 +6,11 @@
     left: 0;
     height: 100vh;
 }
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 100vh;
+}

@@ -490,10 +490,10 @@ h3 {
 .main-nav {
   background: rgb(211, 24, 105);
   position: absolute;
-  top: -1em;
-  bottom: 0;
+  top: 0;
   right: 0;
   left: 0;
+  height: 100vh;
 }
 
 .main-header {

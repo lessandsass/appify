@@ -494,15 +494,13 @@ h3 {
   right: 0;
   left: 0;
 }
-
-ul {
+.main-nav ul {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 100vh;
 }
-
-li {
+.main-nav li {
   flex: 1 1 auto;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   display: flex;

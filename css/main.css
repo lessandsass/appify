@@ -492,7 +492,7 @@ h3 {
   position: absolute;
   top: 0;
   right: 0;
-  left: 0;
+  left: 100%;
   font-size: 1.2rem;
 }
 .main-nav ul {

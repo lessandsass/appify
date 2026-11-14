@@ -514,6 +514,12 @@ h3 {
   text-decoration: none;
 }
 
+.nav-toggle {
+  display: block;
+  background: pink;
+  padding: 1em;
+}
+
 .main-header {
   position: absolute;
   top: 0;

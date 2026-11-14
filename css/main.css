@@ -518,6 +518,10 @@ h3 {
   display: block;
   background: pink;
   padding: 1em;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  cursor: pointer;
 }
 
 .main-header {

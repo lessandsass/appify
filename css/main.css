@@ -535,6 +535,7 @@ h3 {
   width: 2em;
   height: 3px;
   background: rgb(255, 255, 255);
+  transition: all ease-in-out 250ms;
 }
 
 .hamburger::before {
@@ -543,6 +544,16 @@ h3 {
 
 .hamburger::after {
   transform: translateY(3px);
+}
+
+.hamburger.is-open {
+  transform: rotate(45deg);
+}
+.hamburger.is-open::after {
+  transform: rotate(-90deg) translateX(3px);
+}
+.hamburger.is-open::before {
+  opacity: 0;
 }
 
 .main-header {

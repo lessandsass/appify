@@ -5,8 +5,9 @@
     right: 0;
     left: 100%;
     font-size: 1.2rem;
-
     overflow:hidden;
+
+    transition: all ease-in-out 250ms;
 
     ul {
         display: flex;
@@ -26,6 +27,10 @@
     a {
         color: $text-inverse;
         text-decoration: none;
+    }
+
+    &.is-open {
+        left: 0;
     }
     
 }

@@ -507,16 +507,17 @@ h3 {
   flex: 1 1 auto;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.main-nav li:hover {
-  background: rgba(0, 0, 0, 0.1);
 }
 .main-nav a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  padding: 2em 10em;
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-nav a:hover {
+  background: rgba(0, 0, 0, 0.1);
 }
 .main-nav.is-open {
   left: 0;

@@ -608,6 +608,12 @@ h3 {
 .sales-points {
   padding: 10vh 0;
 }
+.sales-points .sales-point {
+  margin-bottom: 3.5em;
+}
+.sales-points .sales-point:last-child {
+  margin-bottom: 0;
+}
 
 .btn {
   display: inline-block;

@@ -4,6 +4,10 @@
     .sales-point {
         margin-bottom: 3.5em;
 
+        &:first-of-type {
+            margin-top: 1.5em;
+        }
+
         &:last-child {
             margin-bottom: 0;
         }

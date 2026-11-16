@@ -439,10 +439,6 @@ img {
   list-style: none;
 }
 
-h2 {
-  background: blue;
-}
-
 h1,
 h2,
 h3,
@@ -610,6 +606,9 @@ h3 {
 }
 .sales-points .sales-point {
   margin-bottom: 3.5em;
+}
+.sales-points .sales-point:first-of-type {
+  margin-top: 1.5em;
 }
 .sales-points .sales-point:last-child {
   margin-bottom: 0;

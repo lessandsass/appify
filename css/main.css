@@ -419,6 +419,7 @@ template {
 
 body {
   color: rgb(4, 140, 168);
+  text-align: center;
 }
 
 img {
@@ -436,6 +437,10 @@ img {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+h2 {
+  background: blue;
 }
 
 h1,
@@ -485,6 +490,15 @@ h3 {
 
 .grid {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 0 0 100%;
+}
+
+.col--full {
+  flex: 0 0 100%;
 }
 
 .main-nav {

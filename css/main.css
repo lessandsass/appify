@@ -597,8 +597,13 @@ h3 {
   display: none;
 }
 
-.promo {
-  padding: 10vh 0;
+.title-box {
+  background: rgb(211, 24, 105);
+  color: rgb(255, 255, 255);
+}
+
+.bg-primary {
+  background: rgb(4, 140, 168);
 }
 
 .sales-points {

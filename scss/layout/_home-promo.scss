@@ -1,3 +1,10 @@
-.promo {
-    padding: 10vh 0;
+@use "../abstracts/colors";
+
+.title-box {
+    background: colors.$accent;
+    color: colors.$text-inverse;
+}
+
+.bg-primary {
+    background: colors.$main;
 }

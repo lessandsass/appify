@@ -3,8 +3,12 @@
 .title-box {
     background: colors.$accent;
     color: colors.$text-inverse;
+    margin: 0 auto;
+    padding: 1em;
 }
 
 .bg-primary {
     background: colors.$main;
+    color: colors.$text-inverse;
+    padding: 2.5em;
 }

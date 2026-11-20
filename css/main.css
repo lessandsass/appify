@@ -597,15 +597,6 @@ h3 {
   text-align: center;
 }
 
-.title-box {
-  background: rgb(211, 24, 105);
-  color: rgb(255, 255, 255);
-  margin: 0 auto;
-  padding: 2em;
-  transform: translateY(50%);
-  max-width: 90%;
-}
-
 .bg-primary {
   background: rgb(4, 140, 168);
   color: rgb(255, 255, 255);

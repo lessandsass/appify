@@ -39,6 +39,15 @@ h3 {
     }
 }
 
+.title-box {
+    background: colors.$accent;
+    color: colors.$text-inverse;
+    margin: 0 auto;
+    padding: 2em;
+    transform: translateY(50%);
+    max-width: 90%;
+}
+
 .text-intro {
     font-size: 1.2rem;
 }

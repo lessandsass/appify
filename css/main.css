@@ -603,12 +603,13 @@ h3 {
   margin: 0 auto;
   padding: 2em;
   transform: translateY(50%);
+  max-width: 90%;
 }
 
 .bg-primary {
   background: rgb(4, 140, 168);
   color: rgb(255, 255, 255);
-  padding: 6em 2.5em 2.5em;
+  padding: 8em 2.5em 2.5em;
 }
 
 .sales-points {

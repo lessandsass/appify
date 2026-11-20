@@ -439,6 +439,10 @@ img {
   list-style: none;
 }
 
+.lg-screen {
+  display: none;
+}
+
 h1,
 h2,
 h3,

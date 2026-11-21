@@ -1,5 +1,3 @@
-@use "../abstracts/colors";
-
 h1,
 h2,
 h3,
@@ -26,8 +24,8 @@ h1 {
     line-height: 1.15;
 }
 
-h3 {
-    font-size: 1.2rem;
+h2 {
+    font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 1;
@@ -42,12 +40,20 @@ h3 {
 }
 
 .title-box {
-    background: colors.$accent;
-    color: colors.$text-inverse;
+    background: $accent;
+    color: $text-inverse;
     margin: 0 auto;
     padding: 2em;
-    transform: translateY(50%);
+    transform: translateY(30%);
     max-width: 90%;
+    @media (min-width: 495px) {
+        transform: translateY(50%);
+    }
+
+    & + .bg-primary {
+        padding-top: 6em;
+    }
+
 }
 
 .text-intro {

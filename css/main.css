@@ -475,8 +475,8 @@ h1 {
   line-height: 1.15;
 }
 
-h3 {
-  font-size: 1.2rem;
+h2 {
+  font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 1;
@@ -495,8 +495,16 @@ h3 {
   color: rgb(255, 255, 255);
   margin: 0 auto;
   padding: 2em;
-  transform: translateY(50%);
+  transform: translateY(30%);
   max-width: 90%;
+}
+@media (min-width: 495px) {
+  .title-box {
+    transform: translateY(50%);
+  }
+}
+.title-box + .bg-primary {
+  padding-top: 6em;
 }
 
 .text-intro {
@@ -613,7 +621,7 @@ h3 {
 }
 
 .sales-points {
-  padding: 10vh 0;
+  padding: 10vh 0 0;
 }
 .sales-points .sales-point {
   margin-bottom: 3.5em;

@@ -485,6 +485,7 @@ h2 {
 .title-large {
   font-size: 3rem;
   font-weight: 300;
+  line-height: 1;
 }
 .title-large strong {
   font-weight: 900;

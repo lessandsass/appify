@@ -667,3 +667,13 @@ h2 {
   background: rgb(255, 255, 255);
   color: rgb(4, 140, 168);
 }
+
+.cta {
+  background-color: rgb(22, 219, 147);
+  background-image: url(../../img/call-to-action-background.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 5em 0;
+  background-blend-mode: multiply;
+  color: rgb(255, 255, 255);
+}
